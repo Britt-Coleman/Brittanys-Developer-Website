@@ -1,0 +1,49 @@
+/*Universal Styles*/
+header {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 64px;
+}
+
+h1 {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+}
+/*header*/
+.logo { 
+    position: absolute;
+    display: inline-block;
+    left: 122px;
+  }
+
+.nav_list { 
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    right: 153px;
+}
+li {
+    color: white;
+    padding: 8px;
+    display: inline-block;
+}
+
+li a {
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+/*Featured Posts*/
