@@ -1,9 +1,21 @@
 /*Universal Styles*/
+body {
+    width: 100%;
+    height: auto;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+}
 header {
     color: white;
     background-color: black;
     width: 100%;
     height: 64px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -21,6 +33,48 @@ p {
     font-family: 'Alumni Sans', sans-serif;
     font-size: 16px;
 }
+/*Button Styles*/
+.button_one{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    color: black;
+    background-color: #EEC5BF;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    text-decoration: none;
+}
+
+.button_one:hover {
+    border: 1px solid black;
+}
+
+.button_one:active {
+    background-color: black;
+    color: white;
+}
+
+.button_two {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 20px 0;
+}
+
+.button_two:hover {
+    border: 2px solid white;
+}
+
+.button_two:active {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
 /*header*/
 .logo { 
     position: absolute;
@@ -34,7 +88,7 @@ p {
     font-size: 14px;
     right: 153px;
 }
-li {
+.nav_list li {
     color: white;
     padding: 8px;
     display: inline-block;
@@ -45,5 +99,155 @@ li a {
     font-size: 16px;
     text-decoration: none;
     color: white;
+    border-radius: 10px;
+    padding: 15px;
 }
+
+li a:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+
+li a:active {
+    background-color: #EEC5BF;
+    color: black;
+}
+
+.current {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+/*Main Side Bar*/
+.side_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+    position: relative;
+    background-color: #E2E0E0;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 270px;
+    height: auto;
+    padding: 20px;
+}
+.sidebar_h1 {
+    position: absolute;
+    top: 0px;
+    border-radius: 10px 10px 0 0;
+    justify-content: start;
+    background-color: black;
+    text-align: center;
+    height: 73px;
+    width: 100%;
+}
+/*About Me*/
+.about_me {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 93px 10px 10px 20px;
+    padding: 20px;
+}
+
+.profile_pic {
+    height: 167px;
+    width: 167px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+/*Recent Posts*/
+
 /*Featured Posts*/
+.featured_posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items:center;
+    position: relative;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E2E0E0;
+    width: 1000px;
+    height: 410px;
+    margin-bottom: 25px;
+}
+.featured_posts_h1 {
+    position: absolute;
+    top: 0px;
+    border-radius: 10px 10px 0 0;
+    justify-content: start;
+    background-color: black;
+    text-align: center;
+    height: 73px;
+    width: 100%;
+}
+
+.featured_post {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   text-align: center;
+   justify-content: space-around;
+   justify-items: center;
+   padding: 20px;
+   margin: 93px 10px 10px 20px
+}
+
+/*Featured Projects*/
+
+.featured_projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items:center;
+    position: relative;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E2E0E0;
+    width: 1000px;
+    height: 410px;
+    margin: 25px 0;
+}
+.featured_projects_h1 {
+    position: absolute;
+    top: 0px;
+    border-radius: 10px 10px 0 0;
+    justify-content: start;
+    background-color: black;
+    text-align: center;
+    height: 73px;
+    width: 100%;
+}
+
+.featured_project {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 10px;
+   text-align: center;
+   justify-content: space-around;
+   justify-items: center;
+   padding: 20px;
+   margin: 93px 10px 10px 20px
+}
+
+/*footer content*/
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 54px;
+}
