@@ -3,4 +3,4 @@
  
  I wanted my developer website to be minimal but have an aesthetic feel to it. As well as, easy to costumize for others wishing to copy the styling. 
  
-<a href-"file:///Users/brittanycoleman/Desktop/Projects/Brittanys-Developer-Website/Index.html"> View Project </a>
+View Project: "file:///Users/brittanycoleman/Desktop/Projects/Brittanys-Developer-Website/Index.html"
