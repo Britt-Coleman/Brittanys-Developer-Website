@@ -168,6 +168,29 @@ li a:active {
     height: 50px;
 }
 /*Recent Posts*/
+.recent_posts {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 20px 10px 10px 20px;
+    padding: 20px 50px;
+}
+
+.recent_posts a {
+    color: black;
+}
+
+.recent_posts li {
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    list-style: none;
+}
 
 /*Featured Posts*/
 .featured_posts {
@@ -244,9 +267,64 @@ li a:active {
    margin: 93px 10px 10px 20px
 }
 
+/* Contact Form */
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items:center;
+    position: relative;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E2E0E0;
+    width: 1000px;
+    height: 410px;
+    margin: 25px 0;
+}
+
+.contact_form_h1 {
+    position: absolute;
+    top: 0px;
+    border-radius: 10px 10px 0 0;
+    justify-content: start;
+    background-color: black;
+    text-align: center;
+    height: 73px;
+    width: 100%;
+}
+
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 40px;
+}
+.contact_form input {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.contact_form_message {
+    height: 70px;
+}
+
+form button {
+    width: 100px;
+    align-self: center;
+}
 /*footer content*/
 footer {
+    position: absolute;
+    display: inline-block;
     color: white;
+    text-align: center;
     background-color: black;
     width: 100%;
     height: 54px;
